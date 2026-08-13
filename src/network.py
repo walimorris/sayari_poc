@@ -24,14 +24,22 @@ def _load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def _add_traversal_edges(graph: nx.DiGraph, source_id: str, source_label: str, traversal: dict) -> None:
+def _add_traversal_edges(graph: nx.DiGraph, source_id: str, source_label: str,
+                          traversal: dict, seed_labels: dict) -> None:
     for path_entry in traversal.get("data", []):
         target = path_entry.get("target", {})
         target_id = target.get("id")
         if not target_id:
             continue
         graph.add_node(source_id, label=source_label, in_seed_list=True)
-        graph.add_node(target_id, label=target.get("label", target_id),
+        # seed_labels takes priority: a target discovered here may itself be
+        # one of our 50 seeds (just not processed yet, or processed earlier
+        # and about to be revisited as someone else's target), and without
+        # this check whichever traversal file happens to be read last would
+        # win and silently overwrite a readable English name with Sayari's
+        # native-language one.
+        target_label = seed_labels.get(target_id, target.get("label", target_id))
+        graph.add_node(target_id, label=target_label,
                         countries=target.get("countries", []),
                         sanctioned=target.get("sanctioned", False),
                         in_seed_list=graph.nodes.get(target_id, {}).get("in_seed_list", False))
@@ -48,10 +56,15 @@ def build_graph(entities_df) -> nx.DiGraph:
     """
     graph = nx.DiGraph()
 
+    seed_labels = {
+        row["sayari_entity_id"]: row["input_name"] or row["label"]
+        for _, row in entities_df.iterrows() if row["sayari_entity_id"]
+    }
+
     for _, row in entities_df.iterrows():
         if not row["sayari_entity_id"]:
             continue
-        source_id, source_label = row["sayari_entity_id"], row["label"] or row["input_name"]
+        source_id, source_label = row["sayari_entity_id"], seed_labels[row["sayari_entity_id"]]
         slug = _slug(row["input_name"])
         idx = row["row_index"]
 
@@ -59,8 +72,8 @@ def build_graph(entities_df) -> nx.DiGraph:
         watchlist = _load_json(NETWORK_DIR / f"{idx:02d}_{slug}_watchlist.json")
 
         graph.add_node(source_id, label=source_label, in_seed_list=True, row_index=int(idx))
-        _add_traversal_edges(graph, source_id, source_label, ownership)
-        _add_traversal_edges(graph, source_id, source_label, watchlist)
+        _add_traversal_edges(graph, source_id, source_label, ownership, seed_labels)
+        _add_traversal_edges(graph, source_id, source_label, watchlist, seed_labels)
         graph.nodes[source_id]["in_seed_list"] = True  # re-assert; may have been overwritten as a target
 
     return graph
