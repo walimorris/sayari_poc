@@ -1,0 +1,11 @@
+requests
+python-dotenv
+duckdb
+pandas
+networkx
+rapidfuzz
+streamlit
+pydeck
+plotly
+anthropic
+tenacity

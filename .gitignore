@@ -1,0 +1,15 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.idea/
+.streamlit/secrets.toml
+data/sayari.duckdb.wal
+
+# Raw acquisition cache: large (the network/ subdirectory alone runs into the
+# hundreds of megabytes for densely-connected entities) and not needed by the
+# deployed app, which is rebuilt into data/sayari.duckdb or, for the
+# relationship graph, distilled into the two files below.
+data/cache/*
+!data/cache/narratives.json
+!data/cache/network_export.json

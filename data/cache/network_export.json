@@ -1,0 +1,643 @@
+{
+  "nodes": [
+    {
+      "sayari_entity_id": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "label": "Государственная корпорация \"Банк развития и внешнеэкономической деятельности (Внешэкономбанк)\"",
+      "seed_in_degree": 7,
+      "in_degree": 7,
+      "out_degree": 96
+    },
+    {
+      "sayari_entity_id": "D-jLpScdAGFGgR4dtYnu_A",
+      "label": "ГОСУДАРСТВЕННАЯ КОРПОРАЦИЯ ПО СОДЕЙСТВИЮ РАЗРАБОТКЕ, ПРОИЗВОДСТВУ И ЭКСПОРТУ ВЫСОКОТЕХНОЛОГИЧНОЙ ПРОМЫШЛЕННОЙ ПРОДУКЦИИ \"РОСТЕХ\"",
+      "seed_in_degree": 5,
+      "in_degree": 5,
+      "out_degree": 94
+    },
+    {
+      "sayari_entity_id": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "label": "ПАО \"ОБЪЕДИНЕННАЯ АВИАСТРОИТЕЛЬНАЯ КОРПОРАЦИЯ\"",
+      "seed_in_degree": 5,
+      "in_degree": 5,
+      "out_degree": 97
+    },
+    {
+      "sayari_entity_id": "9fiGgW8JSHDcfCUeKnVMXA",
+      "label": "Baltic Shipyard",
+      "seed_in_degree": 4,
+      "in_degree": 4,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "KA4EYcuYj6GGWLp6DRNsxw",
+      "label": "Tupolev PJSC",
+      "seed_in_degree": 4,
+      "in_degree": 4,
+      "out_degree": 98
+    },
+    {
+      "sayari_entity_id": "5wVHdujAfKLkHO7efPnAjQ",
+      "label": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"АВИАЦИОННАЯ ХОЛДИНГОВАЯ КОМПАНИЯ \"СУХОЙ\"",
+      "seed_in_degree": 4,
+      "in_degree": 4,
+      "out_degree": 98
+    },
+    {
+      "sayari_entity_id": "YA4d9w1CSR2dpqzMhYoYVw",
+      "label": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"АДМИРАЛТЕЙСКИЕ ВЕРФИ\"",
+      "seed_in_degree": 4,
+      "in_degree": 4,
+      "out_degree": 93
+    },
+    {
+      "sayari_entity_id": "dy-rh2g0QtzUN_jC_e9S_A",
+      "label": "БАНК ВТБ (ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО)",
+      "seed_in_degree": 3,
+      "in_degree": 3,
+      "out_degree": 98
+    },
+    {
+      "sayari_entity_id": "E_NabEdOK7AokStLfvF1rQ",
+      "label": "Акционерный Коммерческий Банк Новикомбанк акционерное общество",
+      "seed_in_degree": 3,
+      "in_degree": 3,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "qgjNlQSAvdiFrSXZLdzGYA",
+      "label": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"РОССИЙСКАЯ САМОЛЕТОСТРОИТЕЛЬНАЯ КОРПОРАЦИЯ \"МИГ\"",
+      "seed_in_degree": 3,
+      "in_degree": 3,
+      "out_degree": 61
+    },
+    {
+      "sayari_entity_id": "U7pXtLgp1t_mJGCi3d6J8g",
+      "label": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"НАУЧНО-ПРОИЗВОДСТВЕННАЯ КОРПОРАЦИЯ \"ИРКУТ\"",
+      "seed_in_degree": 3,
+      "in_degree": 3,
+      "out_degree": 94
+    },
+    {
+      "sayari_entity_id": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "label": "Открытое акционерное общество «Производственное объединение «Северное машиностроительное предприятие»",
+      "seed_in_degree": 3,
+      "in_degree": 3,
+      "out_degree": 50
+    },
+    {
+      "sayari_entity_id": "fcyGF6c60wnDy29rB3IWiQ",
+      "label": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО БАНК \"ФИНАНСОВАЯ КОРПОРАЦИЯ ОТКРЫТИЕ\"",
+      "seed_in_degree": 2,
+      "in_degree": 2,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "C5evl7eZKYvMMZHtGrm5UQ",
+      "label": "АО \"ОБЪЕДИНЕННАЯ СУДОСТРОИТЕЛЬНАЯ КОРПОРАЦИЯ\"",
+      "seed_in_degree": 2,
+      "in_degree": 2,
+      "out_degree": 94
+    },
+    {
+      "sayari_entity_id": "9LtTGZXn_LlN05C47cwZ5w",
+      "label": "Rosoboronexport",
+      "seed_in_degree": 2,
+      "in_degree": 2,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "uvq9R4Byykp6HBsX9Ohp3A",
+      "label": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ЦЕНТР СУДОРЕМОНТА \"ЗВЕЗДОЧКА\"",
+      "seed_in_degree": 2,
+      "in_degree": 2,
+      "out_degree": 67
+    },
+    {
+      "sayari_entity_id": "RqBOnCZOD5pWG-tCf8wr8A",
+      "label": "Russian Railways",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "c4CsFbk2nqG5QgemfgCczg",
+      "label": "Power Machines",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "uKGj1Dx23piV16B7oVDwoQ",
+      "label": "ПАО \"НК \"РОСНЕФТЬ\"",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 93
+    },
+    {
+      "sayari_entity_id": "w_HwwyFYfw8OVwST7AoSUw",
+      "label": "Alfa-Bank JSC",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 96
+    },
+    {
+      "sayari_entity_id": "7h4KiPgnAb6t497bGQSXRA",
+      "label": "ПАО \"КАМАЗ\"",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 98
+    },
+    {
+      "sayari_entity_id": "d2TgQkN7TkoPuE9fvnV9Xw",
+      "label": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"КОНЦЕРН ВОЗДУШНО-КОСМИЧЕСКОЙ ОБОРОНЫ \"АЛМАЗ - АНТЕЙ\"",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 97
+    },
+    {
+      "sayari_entity_id": "kpydBqvXd0I81sqNynYMPA",
+      "label": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"УРАЛЬСКАЯ БОЛЬШЕГРУЗНАЯ ТЕХНИКА-УРАЛВАГОНЗАВОД\"",
+      "seed_in_degree": 1,
+      "in_degree": 1,
+      "out_degree": 98
+    },
+    {
+      "sayari_entity_id": "5fFhX0dMY2GliW0F5kOs4A",
+      "label": "Russian Direct Investment Fund",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "RlijNwYUfMVOZctGfb95Wg",
+      "label": "Sberbank",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "RZAPsBRdYXTToVqy4ZuNow",
+      "label": "Gazprom",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "xYCkQF4AB2p2YUI7EAL-YQ",
+      "label": "National Iranian Oil Company",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 84
+    },
+    {
+      "sayari_entity_id": "5n9BpqEMoMVQvMKBBKbk2g",
+      "label": "Huawei Technologies Co. Ltd.",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "SOvsvbXjFuEa1qzCitrfKg",
+      "label": "ZTE Corporation",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "CF2ca8pzwEMGmKrENIifNA",
+      "label": "Hangzhou Hikvision Digital Technology Co. Ltd.",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "v6qt9ZlyXkJb5AHmURHh0g",
+      "label": "Syrian Arab Airlines",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 51
+    },
+    {
+      "sayari_entity_id": "743PV9hvik01AFVlWI-oTg",
+      "label": "Korea Mining Development Trading Corporation",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 51
+    },
+    {
+      "sayari_entity_id": "yPMqDvYBVDqz8q9iJmlqpA",
+      "label": "Cubametales",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 15
+    },
+    {
+      "sayari_entity_id": "PNCfdPZenKKPQYzg0983yg",
+      "label": "Myanmar Economic Holdings Limited",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 94
+    },
+    {
+      "sayari_entity_id": "hBbGwsQXUAZVHl-EeRmfsQ",
+      "label": "Belaruskali OAO",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "xH8jHy73cLhkzYVQpFDvUQ",
+      "label": "Promsvyazbank",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 97
+    },
+    {
+      "sayari_entity_id": "kdOb4CZZrQ-yJpITOfuP0A",
+      "label": "Belneftegaz",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 51
+    },
+    {
+      "sayari_entity_id": "IqT-ciRIQc9XuMllE0Acpw",
+      "label": "Bank Rossiya",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "GGHASgIP4hQ3e180IDb8Qw",
+      "label": "Sovcombank",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 88
+    },
+    {
+      "sayari_entity_id": "9-IuyJoA08bELHrSY3mXXA",
+      "label": "Transneft",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 97
+    },
+    {
+      "sayari_entity_id": "SyiWoXAi7JAAOfdzOWpBDQ",
+      "label": "Kalashnikov Concern",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 50
+    },
+    {
+      "sayari_entity_id": "DSdGMprorXMqoAktAQpqYg",
+      "label": "NPO High Precision Systems",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 99
+    },
+    {
+      "sayari_entity_id": "MMTM3hkCecHgP_pcfpEhHw",
+      "label": "Tactical Missiles Corporation JSC",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 89
+    },
+    {
+      "sayari_entity_id": "GIVMkDyqah36h-CCfdtQJg",
+      "label": "NPK Tekhmash OAO",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 91
+    },
+    {
+      "sayari_entity_id": "fgqxIqm6DgNRyri_hjWioA",
+      "label": "Molot-Oruzhie",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 100
+    },
+    {
+      "sayari_entity_id": "OnByUNAhTU9SYfzDmox5Ww",
+      "label": "Rustec",
+      "seed_in_degree": 0,
+      "in_degree": 0,
+      "out_degree": 50
+    }
+  ],
+  "edges": [
+    {
+      "source": "RlijNwYUfMVOZctGfb95Wg",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "GIVMkDyqah36h-CCfdtQJg",
+      "target": "D-jLpScdAGFGgR4dtYnu_A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "GIVMkDyqah36h-CCfdtQJg",
+      "target": "E_NabEdOK7AokStLfvF1rQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "5fFhX0dMY2GliW0F5kOs4A",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "legal_successor_of"
+    },
+    {
+      "source": "5fFhX0dMY2GliW0F5kOs4A",
+      "target": "RqBOnCZOD5pWG-tCf8wr8A",
+      "relationship": "has_director"
+    },
+    {
+      "source": "c4CsFbk2nqG5QgemfgCczg",
+      "target": "dy-rh2g0QtzUN_jC_e9S_A",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "fcyGF6c60wnDy29rB3IWiQ",
+      "target": "w_HwwyFYfw8OVwST7AoSUw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "fcyGF6c60wnDy29rB3IWiQ",
+      "target": "9fiGgW8JSHDcfCUeKnVMXA",
+      "relationship": "has_shareholder"
+    },
+    {
+      "source": "fcyGF6c60wnDy29rB3IWiQ",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "fcyGF6c60wnDy29rB3IWiQ",
+      "target": "dy-rh2g0QtzUN_jC_e9S_A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "target": "9fiGgW8JSHDcfCUeKnVMXA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "target": "C5evl7eZKYvMMZHtGrm5UQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "target": "YA4d9w1CSR2dpqzMhYoYVw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "hBbGwsQXUAZVHl-EeRmfsQ",
+      "target": "uKGj1Dx23piV16B7oVDwoQ",
+      "relationship": "receives_from"
+    },
+    {
+      "source": "DSdGMprorXMqoAktAQpqYg",
+      "target": "D-jLpScdAGFGgR4dtYnu_A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "DSdGMprorXMqoAktAQpqYg",
+      "target": "E_NabEdOK7AokStLfvF1rQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "dy-rh2g0QtzUN_jC_e9S_A",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "dy-rh2g0QtzUN_jC_e9S_A",
+      "target": "c4CsFbk2nqG5QgemfgCczg",
+      "relationship": "has_shareholder"
+    },
+    {
+      "source": "KA4EYcuYj6GGWLp6DRNsxw",
+      "target": "qgjNlQSAvdiFrSXZLdzGYA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "KA4EYcuYj6GGWLp6DRNsxw",
+      "target": "U7pXtLgp1t_mJGCi3d6J8g",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "KA4EYcuYj6GGWLp6DRNsxw",
+      "target": "5wVHdujAfKLkHO7efPnAjQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "KA4EYcuYj6GGWLp6DRNsxw",
+      "target": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "YA4d9w1CSR2dpqzMhYoYVw",
+      "target": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "YA4d9w1CSR2dpqzMhYoYVw",
+      "target": "uvq9R4Byykp6HBsX9Ohp3A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "YA4d9w1CSR2dpqzMhYoYVw",
+      "target": "9fiGgW8JSHDcfCUeKnVMXA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "SyiWoXAi7JAAOfdzOWpBDQ",
+      "target": "kpydBqvXd0I81sqNynYMPA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "SyiWoXAi7JAAOfdzOWpBDQ",
+      "target": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "SyiWoXAi7JAAOfdzOWpBDQ",
+      "target": "d2TgQkN7TkoPuE9fvnV9Xw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "kpydBqvXd0I81sqNynYMPA",
+      "target": "9LtTGZXn_LlN05C47cwZ5w",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "target": "KA4EYcuYj6GGWLp6DRNsxw",
+      "relationship": "subsidiary_of"
+    },
+    {
+      "source": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "target": "D-jLpScdAGFGgR4dtYnu_A",
+      "relationship": "subsidiary_of"
+    },
+    {
+      "source": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "target": "5wVHdujAfKLkHO7efPnAjQ",
+      "relationship": "legal_successor_of"
+    },
+    {
+      "source": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "target": "qgjNlQSAvdiFrSXZLdzGYA",
+      "relationship": "legal_successor_of"
+    },
+    {
+      "source": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "target": "U7pXtLgp1t_mJGCi3d6J8g",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "U7pXtLgp1t_mJGCi3d6J8g",
+      "target": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "relationship": "subsidiary_of"
+    },
+    {
+      "source": "U7pXtLgp1t_mJGCi3d6J8g",
+      "target": "KA4EYcuYj6GGWLp6DRNsxw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "U7pXtLgp1t_mJGCi3d6J8g",
+      "target": "5wVHdujAfKLkHO7efPnAjQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "U7pXtLgp1t_mJGCi3d6J8g",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "5wVHdujAfKLkHO7efPnAjQ",
+      "target": "qgjNlQSAvdiFrSXZLdzGYA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "5wVHdujAfKLkHO7efPnAjQ",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "has_shareholder"
+    },
+    {
+      "source": "5wVHdujAfKLkHO7efPnAjQ",
+      "target": "KA4EYcuYj6GGWLp6DRNsxw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "5wVHdujAfKLkHO7efPnAjQ",
+      "target": "U7pXtLgp1t_mJGCi3d6J8g",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "5wVHdujAfKLkHO7efPnAjQ",
+      "target": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "uvq9R4Byykp6HBsX9Ohp3A",
+      "target": "YA4d9w1CSR2dpqzMhYoYVw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "uvq9R4Byykp6HBsX9Ohp3A",
+      "target": "9fiGgW8JSHDcfCUeKnVMXA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "uvq9R4Byykp6HBsX9Ohp3A",
+      "target": "C5evl7eZKYvMMZHtGrm5UQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "9LtTGZXn_LlN05C47cwZ5w",
+      "target": "D-jLpScdAGFGgR4dtYnu_A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "9LtTGZXn_LlN05C47cwZ5w",
+      "target": "7h4KiPgnAb6t497bGQSXRA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "9LtTGZXn_LlN05C47cwZ5w",
+      "target": "E_NabEdOK7AokStLfvF1rQ",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "7h4KiPgnAb6t497bGQSXRA",
+      "target": "9LtTGZXn_LlN05C47cwZ5w",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "7h4KiPgnAb6t497bGQSXRA",
+      "target": "D-jLpScdAGFGgR4dtYnu_A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "C5evl7eZKYvMMZHtGrm5UQ",
+      "target": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "C5evl7eZKYvMMZHtGrm5UQ",
+      "target": "YA4d9w1CSR2dpqzMhYoYVw",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "9fiGgW8JSHDcfCUeKnVMXA",
+      "target": "nEnD7hIN4HEmXvrHgZ1QcQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "9fiGgW8JSHDcfCUeKnVMXA",
+      "target": "uvq9R4Byykp6HBsX9Ohp3A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "9fiGgW8JSHDcfCUeKnVMXA",
+      "target": "fcyGF6c60wnDy29rB3IWiQ",
+      "relationship": "shareholder_of"
+    },
+    {
+      "source": "9fiGgW8JSHDcfCUeKnVMXA",
+      "target": "YA4d9w1CSR2dpqzMhYoYVw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "qgjNlQSAvdiFrSXZLdzGYA",
+      "target": "KA4EYcuYj6GGWLp6DRNsxw",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "qgjNlQSAvdiFrSXZLdzGYA",
+      "target": "T8xxeh7qY1AW7ISrGZKLdQ",
+      "relationship": "subsidiary_of"
+    },
+    {
+      "source": "qgjNlQSAvdiFrSXZLdzGYA",
+      "target": "5wVHdujAfKLkHO7efPnAjQ",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "qgjNlQSAvdiFrSXZLdzGYA",
+      "target": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "0-dUKOZj1YJ8Hl48PMHjgA",
+      "target": "dy-rh2g0QtzUN_jC_e9S_A",
+      "relationship": "linked_to"
+    },
+    {
+      "source": "w_HwwyFYfw8OVwST7AoSUw",
+      "target": "fcyGF6c60wnDy29rB3IWiQ",
+      "relationship": "linked_to"
+    }
+  ]
+}
