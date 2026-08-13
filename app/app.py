@@ -23,6 +23,7 @@ from src.queries import (
     input_country_breakdown,
     map_data,
     match_quality_breakdown,
+    network_country_breakdown,
     risk_category_breakdown,
     top_risk_factors,
     truncated_traversals,
@@ -124,6 +125,14 @@ if section == "Overview":
         st.bar_chart(match_df.set_index("strength")["entity_count"])
         st.subheader("Input country distribution")
         st.bar_chart(input_country_breakdown(con).set_index("country")["entity_count"])
+        st.subheader("Network country footprint")
+        st.caption("Countries appearing in these entities' Sayari relationship graphs -- ownership, "
+                   "control, trade -- not just where they're headquartered. A far wider spread than "
+                   "the input addresses alone, and the ranking itself is often the finding: offshore "
+                   "hubs like Cyprus can outrank major economies here even with no entity actually "
+                   "based there.")
+        net_df = network_country_breakdown(con, limit=15)
+        st.bar_chart(net_df.set_index("country")["entity_count"])
     with right:
         st.subheader("Risk category prevalence")
         st.caption("Broad groupings (e.g. sanctions, state ownership, adverse media) showing how many "
